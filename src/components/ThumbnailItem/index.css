@@ -1,0 +1,27 @@
+.list-element {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.button {
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.thumbnail-img {
+  background: transparent;
+}
+.thumbnail {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 767px) {
+  .list-element {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+}

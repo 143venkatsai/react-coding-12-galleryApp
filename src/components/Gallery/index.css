@@ -1,0 +1,41 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3% 15%;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.para-element {
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -5%;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery-container {
+    padding: 10% 10%;
+  }
+  .bg-image {
+    border-radius: 20px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .thumbnail-container {
+    margin-left: -12%;
+  }
+}
